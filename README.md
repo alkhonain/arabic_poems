@@ -12,7 +12,7 @@ The dataset contains over 58K poems that extend from the 6th century to the pres
 ## Model
 To solve this issue first the dataset must be cleaned to do that, by applying the techniques to clean the dataset such as removing stop words, null values and punctuations after the cleaning the data, i implemented the NLP process starting from Normalized to Lemmatized using [Farasa](http://farasa.qcri.org) model to Lemmatize the arabic words.<br>
 then apply feature extraction techniques to convert text to number and finally apply it to the model.<br>
-i created two models one using [TensorFlow](https://github.com/alkhonain/arabic_poems/blob/main/Poems_TenserFlow.ipynb) and the other using [Sklearn]() and it got very high result such as 67% accuracy and 71% validation.
+i created two models one using [TensorFlow](https://github.com/alkhonain/arabic_poems/blob/main/Poems_TenserFlow.ipynb) and the other using [Sklearn](https://github.com/alkhonain/arabic_poems/blob/main/Notebook.ipynb) and it got very high result such as 67% accuracy and 71% validation.
 
 
 ## Tools
@@ -21,3 +21,5 @@ i created two models one using [TensorFlow](https://github.com/alkhonain/arabic_
 - Matplotlib and Seaborn for plotting
 - Sklearn and TensorFlow for Modling
 
+## Conclusion
+Understanding the pattern of poems for each poet is challenging, more poems to each poet will increase the prediction highly and will improve the model, After all the model was given in high results and gives higher results in when the poet have a lot amount of poems.
